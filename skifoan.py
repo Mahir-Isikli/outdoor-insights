@@ -19,6 +19,7 @@ from sklearn.metrics import accuracy_score
 import asyncio
 from azure.eventhub.aio import EventHubProducerClient
 from azure.eventhub import EventData
+from datetime import datetime
 
 lenghts = 20
 cd = 10
@@ -179,7 +180,10 @@ def send_data(json_string):
     data = json_string
     loop = asyncio.get_event_loop()
     loop.run_until_complete(run())
-
+    # Log time.
+    now = datetime.now()
+    current_time = now.strftime("%H:%M:%S")
+    print(current_time + ": Sent data successfully")
 
 ski_day(lenghts, cd, speed, piste)
 
