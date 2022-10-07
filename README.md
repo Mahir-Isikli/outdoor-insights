@@ -13,6 +13,10 @@ Our product can be combined with every skishoe and ski, as only the in-sole need
 
 ### Monetarization 
 
+Contoso Sports has different potential revenue streams in the B2C and B2B market. Inital revenues will be generated through the sale of the insole, which will usually be combined with a subscription for the mobile applications. Furthermore Contoso sports will earn commisions whenever a sale of ski equipment is initiated from our application. 
+
+As customers select the ski they drive to gather better analytics how they ride with different skis, we are also able to sell this data to manufactures, so that they know how their ski perform, how much vibration is caused for different speeds. 
+
 ## Technical Implementation 
 
 ### User Functionalities and Interfaces 
