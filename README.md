@@ -1,5 +1,7 @@
-# outdoor-insights
+# Outdoor Insights
 Working directory for the group Outdoor Insights for the WHU x Microsoft Azure 2022 IdeaHack Hackathon
+
+<em> All images are in the assets folder. </em>
 
 ## Contoso Sports
 
