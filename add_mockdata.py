@@ -10,7 +10,7 @@ counter = 0
 async def run():
     producer = EventHubProducerClient.from_connection_string(
         conn_str="Endpoint=sb://outdoorinsights.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey"
-                 ";SharedAccessKey=+kNiLf3xRMDvtZMhTHyY4yKJ8c4hx5z7tnl8BTatCkk=", 
+                 ";SharedAccessKey=+kNiLf3xRMDvtZMhTHyY4yKJ8c4hx5z7tnl8BTatCkk=",
         eventhub_name="datainput")
     async with producer:
         # Create a batch.
