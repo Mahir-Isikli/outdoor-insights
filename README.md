@@ -17,8 +17,13 @@ Contoso Sports has different potential revenue streams in the B2C and B2B market
 
 As customers select the ski they drive to gather better analytics how they ride with different skis, we are also able to sell this data to manufactures, so that they know how their ski perform, how much vibration is caused for different speeds. 
 
+## User Functionalities and Interfaces 
+
+The user turns on the insole and connects it via bluetooth. They can then start riding and our application can detect, when the athlete is riding and when he is actually in the lift or doing a break. After each ride a report will be initiated, and send to the user, so that the customers can analyze their most recent ride in the lift to know what to focus on, in the next ride. 
+We provide product recommenddations directly in the applications, and if the customers is interested in any of our products they will be forwarded to our partners website. 
+
 ## Technical Implementation 
 
-### User Functionalities and Interfaces 
+
 
 
