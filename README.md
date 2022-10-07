@@ -31,3 +31,4 @@ To make our app work, we feed Event Hub with data from our app.
 This triggers the Streaming Analytics Job to write the data to CosmosDB.
 When data inserted to our CosmosDB, data will be processed, cleaned and stored in another CosmosDB, which we use for long-term data storage.
 Also data inserts will trigger a Logic App to send messages via the Notification Hub to our App.
+[Azure Architecture.pdf](https://github.com/Mahir-Isikli/outdoor-insights/files/9732032/Azure.Architecture.pdf)
