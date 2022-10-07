@@ -22,6 +22,10 @@ As customers select the ski they drive to gather better analytics how they ride 
 The user turns on the insole and connects it via bluetooth. They can then start riding and our application can detect, when the athlete is riding and when he is actually in the lift or doing a break. After each ride a report will be initiated, and send to the user, so that the customers can analyze their most recent ride in the lift to know what to focus on, in the next ride. 
 We provide product recommenddations directly in the applications, and if the customers is interested in any of our products they will be forwarded to our partners website. 
 
+![alt text](http://url/to/4.png)
+![alt text](http://url/to/5.png)
+![alt text](http://url/to/6.png)
+
 ### Technical Implementation 
 
 
