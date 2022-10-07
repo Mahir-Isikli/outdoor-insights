@@ -26,9 +26,11 @@ We provide product recommenddations directly in the applications, and if the cus
 
 
 ### Technical Implementation 
+<img width="888" alt="Architecture" src="https://user-images.githubusercontent.com/82954170/194508045-23e5f451-cbe3-4c6d-a110-cb26d9a86e73.png">
 
-To make our app work, we feed Event Hub with data from our app.
-This triggers the Streaming Analytics Job to write the data to CosmosDB.
-When data inserted to our CosmosDB, data will be processed, cleaned and stored in another CosmosDB, which we use for long-term data storage.
+To make our app work, we feed an Event Hub with unstructred data from our app.
+This triggers the Streaming Analytics Job to write the data to the CosmosDB.
+When the data inserted to our CosmosDB, data will be processed, cleaned and stored in another CosmosDB, which we use for long-term data storage.
 Also data inserts will trigger a Logic App to send messages via the Notification Hub to our App.
-[Azure Architecture.pdf](https://github.com/Mahir-Isikli/outdoor-insights/files/9732032/Azure.Architecture.pdf)
+
+
