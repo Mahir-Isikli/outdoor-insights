@@ -8,9 +8,6 @@ counter = 0
 
 
 async def run():
-    # Create a producer client to send messages to the event hub.
-    # Specify a connection string to your event hubs namespace and
-    # the event hub name.json_data = open('data.json')
     producer = EventHubProducerClient.from_connection_string(
         conn_str="Endpoint=sb://outdoorinsights.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey"
                  ";SharedAccessKey=+kNiLf3xRMDvtZMhTHyY4yKJ8c4hx5z7tnl8BTatCkk=", 
@@ -28,7 +25,9 @@ async def run():
 while True:
     loop = asyncio.get_event_loop()
     loop.run_until_complete(run())
+    # Keep counter as primary key for the session.
     counter = counter + 1
+    # Log time.
     now = datetime.now()
     current_time = now.strftime("%H:%M:%S")
     print(current_time + ": Sent data successfully")
